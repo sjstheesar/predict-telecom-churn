@@ -1,93 +1,64 @@
+# Telecom Churn Prediction Project
 
-Updated on 2023-03-18T04:30:43+06:55
-Updated on 2023-03-11T12:50:32+06:55
-Updated on 2023-03-10T06:33:58+06:55
-Updated on 2023-02-23T17:27:02+06:55
-Updated on 2023-03-17T00:13:11+06:55
-Updated on 2023-03-05T10:19:10+06:55
-Updated on 2023-03-07T07:41:24+06:55
-Updated on 2023-03-04T21:54:58+06:55
-Updated on 2023-03-08T00:57:56+06:55
-Updated on 2023-03-17T02:22:45+06:55
-Updated on 2023-03-04T02:56:11+06:55
-Updated on 2023-03-10T13:49:14+06:55
-Updated on 2023-03-01T22:30:48+06:55
-Updated on 2023-02-27T00:45:41+06:55
-Updated on 2023-03-02T16:55:22+06:55
-Updated on 2023-02-24T13:23:08+06:55
-Updated on 2023-03-01T06:20:56+06:55
-Updated on 2023-02-28T01:41:25+06:55
-Updated on 2023-02-26T00:13:01+06:55
-Updated on 2023-02-18T05:57:06+06:55
-Updated on 2023-03-17T21:25:12+06:55
-Updated on 2023-02-26T08:48:04+06:55
-Updated on 2023-03-18T09:06:58+06:55
-Updated on 2023-02-21T23:24:34+06:55
-Updated on 2023-03-19T06:25:10+06:55
-Updated on 2023-03-11T18:59:53+06:55
-Updated on 2023-03-08T16:41:25+06:55
-Updated on 2023-02-28T23:12:49+06:55
-Updated on 2023-02-26T19:02:12+06:55
-Updated on 2023-03-08T15:09:06+06:55
-Updated on 2023-03-05T23:19:58+06:55
-Updated on 2023-02-23T13:46:45+06:55
-Updated on 2023-02-19T05:13:05+06:55
-Updated on 2023-03-08T11:08:06+06:55
-Updated on 2023-03-01T08:12:45+06:55
-Updated on 2023-03-12T16:25:27+06:55
-Updated on 2023-03-18T02:51:07+06:55
-Updated on 2023-02-26T12:16:03+06:55
-Updated on 2023-03-05T08:56:37+06:55
-Updated on 2023-03-12T07:01:10+06:55
-Updated on 2023-03-02T07:35:15+06:55
-Updated on 2023-02-21T03:56:19+06:55
-Updated on 2023-03-13T05:38:59+06:55
-Updated on 2023-03-05T21:40:09+06:55
-Updated on 2023-03-11T14:32:33+06:55
-Updated on 2023-03-06T16:33:02+06:55
-Updated on 2023-03-09T09:01:04+06:55
-Updated on 2023-02-27T10:28:57+06:55
-Updated on 2023-02-22T12:12:19+06:55
-Updated on 2023-02-23T12:54:44+06:55
-Updated on 2023-03-02T20:38:57+06:55
-Updated on 2023-03-18T17:44:40+06:55
-Updated on 2023-02-21T00:37:05+06:55
-Updated on 2023-03-04T12:17:42+06:55
-Updated on 2023-03-02T03:10:52+06:55
-Updated on 2023-03-02T18:59:28+06:55
-Updated on 2023-03-01T00:47:30+06:55
-Updated on 2023-03-11T00:08:43+06:55
-Updated on 2023-02-19T02:35:41+06:55
-Updated on 2023-03-01T12:50:20+06:55
-Updated on 2023-02-20T20:57:02+06:55
-Updated on 2023-03-08T11:39:30+06:55
-Updated on 2023-02-21T19:11:48+06:55
-Updated on 2023-02-23T14:03:02+06:55
-Updated on 2023-02-25T19:24:20+06:55
-Updated on 2023-03-02T19:31:26+06:55
-Updated on 2023-03-17T21:42:35+06:55
-Updated on 2023-03-17T19:45:02+06:55
-Updated on 2023-02-22T06:35:52+06:55
-Updated on 2023-02-25T16:06:08+06:55
-Updated on 2023-03-13T11:40:02+06:55
-Updated on 2023-02-22T13:24:11+06:55
-Updated on 2023-02-20T15:48:54+06:55
-Updated on 2023-02-26T02:07:24+06:55
-Updated on 2023-03-05T21:18:19+06:55
-Updated on 2023-03-12T15:04:26+06:55
-Updated on 2023-03-06T13:58:12+06:55
-Updated on 2023-03-02T06:10:36+06:55
-Updated on 2023-03-09T07:02:53+06:55
-Updated on 2023-02-24T09:58:51+06:55
-Updated on 2023-03-11T20:02:06+06:55
-Updated on 2023-02-26T21:07:37+06:55
-Updated on 2023-03-06T14:23:44+06:55
-Updated on 2023-03-12T16:49:20+06:55
-Updated on 2023-03-16T21:31:12+06:55
-Updated on 2023-02-19T15:40:18+06:55
-Updated on 2023-02-26T02:19:37+06:55
-Updated on 2023-02-27T14:43:05+06:55
-Updated on 2023-03-07T22:57:03+06:55
-Updated on 2023-02-19T19:07:25+06:55
-Updated on 2023-03-12T21:48:42+06:55
-Updated on 2023-03-03T00:32:24+06:55
+## Description
+This project is designed to predict customer churn in telecom services using machine learning techniques. The script `predict-churn-telecom.py` performs data loading, preprocessing, visualization, and model evaluation.
+
+## Libraries Used
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Functions and Classes
+### load_and_preprocess_data
+Loads the dataset from a CSV file and performs preprocessing tasks such as handling missing values and converting data types.
+
+### plot_categorical_to_target
+Plots categorical features against the target variable to visualize their distribution relative to churn.
+
+### plot_numerical_to_target
+Plots numerical features against the target variable using histograms to identify patterns.
+
+### plot_outliers
+Checks for outliers in numerical features using boxplots.
+
+### label_encode
+Encodes categorical variables using label encoding.
+
+### one_hot_encode
+Encodes categorical variables using one-hot encoding.
+
+### min_max_normalize
+Normalizes numerical features using MinMaxScaler.
+
+### plot_feature_importance
+Visualizes feature importance for a given classifier, specifically Random Forest in this case.
+
+### evaluate_model
+Evaluates model performance using confusion matrix, ROC curve, and precision-recall curve.
+
+## Dependencies
+To run the script, you need to have Python 3.x installed on your system. Additionally, ensure that the following packages are installed:
+
+```bash
+pip install pandas scikit-learn matplotlib seaborn
+```
+
+## Usage
+1. Install dependencies using pip:
+   ```bash
+   pip install pandas scikit-learn matplotlib seaborn
+   ```
+2. Run the script using:
+   ```bash
+   python predict-churn-telecom.py
+   ```
+
+This will execute the script and perform the churn prediction based on the data in `telco-churn-data.csv`.
+
+## Contributing
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
